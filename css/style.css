@@ -1,0 +1,104 @@
+/* Css resets  */
+.left{
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img{
+    width: 64px;
+    filter: invert(100%);
+    display: inline-block;
+}
+
+.left div{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.mid{
+    /* first three are the conditions to center a element */
+    display: block;
+    width: 42%;
+    margin: 38px auto;
+    /* border: 1px solid green; */
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* border: 1px solid yellow; */
+    display: inline-block;
+}
+
+.btn{
+    box-sizing: border-box;
+    left: 34px;
+    top: 20px;
+    margin: 10px 10px;
+    padding: 8px 20px;
+    border: 2px solid rgb(75, 15, 1);
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Prompt', sans-serif;
+}
+.btn:hover{
+    background-color: grey;
+    transition-duration: 700ms;
+    color: white;
+    border: none;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 25px 20px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+    font-size: 21px;
+}
+
+.container{
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 10px;
+    margin: 61px 61px;
+    padding: 26px 34px;
+    width: 33%;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+}
+.container h1{
+    text-align: center;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 350px;
+    margin: 9px 39px;
+    padding: 2px 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.container button{
+    display: block;
+    width: 384px;
+    margin: 9px 39px;
+    padding: 7px 14px;
+}
